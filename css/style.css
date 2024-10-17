@@ -232,6 +232,10 @@ header .navbar .navbar-toggler .navbar-toggler-icon {
   margin-bottom: 1.5rem;
 }
 .receta-detalle .receta-info .info-item {
+  display: flex;
+  flex: 1 0 33.3333%;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
 }
 .receta-detalle .receta-info .info-item .info-label {

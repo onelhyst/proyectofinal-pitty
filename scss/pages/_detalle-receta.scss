@@ -27,6 +27,10 @@
       margin-bottom: $spacing-lg;
       
       .info-item {
+        display: flex;
+        flex: 1 0 33.3333%;
+        flex-direction: column;
+        justify-content: space-between;
         text-align: center;
         
         .info-label {
