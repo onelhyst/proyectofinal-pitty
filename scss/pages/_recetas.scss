@@ -1,0 +1,57 @@
+.recetas-hero {
+    background-image: url('../img/receta.jpg');
+  }
+  
+  .galeria-recetas {
+    padding: 60px 0;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: $color-primary;
+    }
+  
+    .receta-card {
+      min-height: 433px;
+      @include transition(transform 0.3s ease);
+  
+      &:hover {
+        transform: translateY(-10px);
+      }
+  
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+  
+      .card-title {
+        color: $color-primary;
+        font-size: 1.25rem;
+        margin-bottom: 15px;
+      }
+  
+      .card-text {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        color: $color-text-dark;
+      }
+
+      .card-body{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+  
+      .btn-primary {
+        background-color: $color-primary;
+        border-color: $color-primary;
+        @include transition(background-color 0.3s ease, border-color 0.3s ease);
+  
+        &:hover {
+          background-color: darken($color-primary, 10%);
+          border-color: darken($color-primary, 10%);
+        }
+      }
+    }
+  }
+  

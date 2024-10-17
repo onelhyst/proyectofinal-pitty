@@ -1,0 +1,79 @@
+.hero_receta {
+    background-image: url('../img/hero_curry.jpg');
+  }
+  
+  .receta-detalle {
+    padding: $spacing-xl 0;
+    margin-top: $spacing-lg;
+    
+    h1 {
+      color: $color-primary;
+      margin-bottom: $spacing-lg;
+    }
+    
+    .receta-imagen {
+      @include box-shadow(0, 4px, 8px, rgba(0,0,0,0.1));
+      margin-bottom: $spacing-lg;
+      
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+    .receta-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: $spacing-lg;
+      
+      .info-item {
+        text-align: center;
+        
+        .info-label {
+          font-weight: bold;
+          color: $color-primary;
+        }
+      }
+    }
+    
+    .receta-descripcion {
+      margin-bottom: $spacing-lg;
+    }
+    
+    .receta-ingredientes, .receta-instrucciones {
+      margin-bottom: $spacing-xl;
+      
+      h2 {
+        color: $color-primary;
+        margin-bottom: $spacing-md;
+      }
+      
+      ul, ol {
+        padding-left: $spacing-lg;
+      }
+      
+      li {
+        margin-bottom: $spacing-sm;
+      }
+    }
+    
+    .receta-notas {
+      background-color: $color-secondary;
+      padding: $spacing-lg;
+      border-radius: 8px;
+    
+      h3 {
+        color: $color-primary;
+        margin-bottom: $spacing-md;
+      }
+    }
+    
+    @include responsive(md) {
+      .receta-imagen {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  

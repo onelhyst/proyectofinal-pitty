@@ -1,0 +1,29 @@
+footer {
+  background-color: $color-primary;
+  color: $color-text-light;
+  padding: 20px 0;
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .social-icons {
+    a {
+      color: $color-text-light;
+      margin-left: 15px;
+      font-size: 1.2rem;
+      @include transition(color);
+
+      &:hover {
+        color: $color-accent;
+      }
+    }
+  }
+}

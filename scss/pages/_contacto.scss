@@ -1,0 +1,33 @@
+.contacto-hero {
+    background-image: url('../img/contacto.jpg');
+  }
+  
+  .formulario-contacto {
+    padding: 60px 0;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: $color-primary;
+    }
+  
+    .contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+  
+      .form-label {
+        font-weight: bold;
+      }
+  
+      .btn-primary {
+        background-color: $color-primary;
+        border-color: $color-primary;
+        @include transition(background-color 0.3s ease, border-color 0.3s ease);
+  
+        &:hover {
+          background-color: darken($color-primary, 10%);
+          border-color: darken($color-primary, 10%);
+        }
+      }
+    }
+  }  
