@@ -34,35 +34,27 @@
 
 1. **Sopa de Lentejas**
    - *Descripción:* Una reconfortante sopa llena de nutrientes y sabor, perfecta para cualquier estación.
-   - [Ver Receta](detalle-receta.html)
 
 2. **Buddha Bowl**
    - *Descripción:* Un bowl colorido y equilibrado con una mezcla de granos, vegetales y proteínas.
-   - [Ver Receta](detalle-receta.html)
 
 3. **Tacos Veganos**
    - *Descripción:* Deliciosos tacos rellenos de verduras asadas y salsa fresca, ideales para una comida rápida.
-   - [Ver Receta](detalle-receta.html)
 
 4. **Ensalada de Espinacas**
    - *Descripción:* Una ensalada fresca con espinacas, nueces, arándanos y un aderezo ligero.
-   - [Ver Receta](detalle-receta.html)
 
 5. **Pasta al Pesto**
    - *Descripción:* Una pasta cremosa con pesto de albahaca, perfecta para una cena rápida.
-   - [Ver Receta](detalle-receta.html)
 
 6. **Hummus Clásico**
    - *Descripción:* Un dip cremoso de garbanzos perfecto para acompañar vegetales y pan pita.
-   - [Ver Receta](detalle-receta.html)
 
 7. **Batido Verde**
    - *Descripción:* Un batido nutritivo con espinacas, plátano y leche de almendras para comenzar el día.
-   - [Ver Receta](detalle-receta.html)
 
 8. **Galletas Veganas**
    - *Descripción:* Galletas suaves y chocolatosas, perfectas para acompañar tu café o té.
-   - [Ver Receta](detalle-receta.html)
 
 ## Instalación y Uso
 
@@ -113,8 +105,3 @@
   ```
 
   Inicia el proceso de **watch** para compilar SASS automáticamente.
-
-
-## Licencia
-
-Este proyecto está licenciado bajo la [MIT License](LICENSE).
